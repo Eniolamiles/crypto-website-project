@@ -1,0 +1,82 @@
+.hero {
+  background-color: #7c20be;
+  height: 100vh;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.img2 {
+  position: absolute;
+  width: 500px;
+  height: 520px;
+  left: 500px;
+  top: 81px;
+}
+
+.img3 {
+  position: absolute;
+  width: 410px;
+  height: 431px;
+  left: 770px;
+  top: 137px;
+}
+.list1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.list2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.btn2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 27px;
+  background: #ffffff;
+  border-radius: 5px;
+  color: #7c20be;
+}
+
+.content-section {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 56px;
+  color: #ffffff;
+  margin-top: 110px;
+  position: relative;
+  z-index: 2;
+}
+
+.content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}

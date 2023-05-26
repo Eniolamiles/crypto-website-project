@@ -1,50 +1,48 @@
 import React from "react";
 import "../styles/CryptoInvolvement.css";
+import Payment from "../assets/mobilepayment.png";
+import Financial from "../assets/financial.png";
+import Investment from "../assets/investment.png";
 
 const CryptoInvolvement = () => {
   return (
     <div className="main">
-      <div className="container rate">
-        <div className="cypto-rate">
-          <h3 className="">
-            BTC/NGN
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-3.21%{" "}
-            <span className="vl"></span>
-            <br /> 20,560,101.59 NGN
-          </h3>
+      <div className="crypto-content ">
+        <h2 className="text-center mt-5">
+          why do people get involved in Cryptocurrencies?
+        </h2>
+      </div>
+      <div className="btn5 ">
+        <button className="mt-3  shoe ">See Less</button>
+      </div>
+      <div className=" container crypto-section">
+        <div className="sec-box border">
+          <img src={Payment} alt="" />
+          <h5>Easy Mode of Payment</h5>
+          <p>
+            People can now easily send and receive money <br /> from anywhere in
+            the to purchase goods and <br /> pay for services.
+          </p>
         </div>
-        <div className="cypto-rate">
-          <h3>
-            USDT/NGN
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+10.20%{" "}
-            <span className="vl2"></span>
-            <br /> 453.44NGN
-          </h3>
+        <div className="sec-box border">
+          <img src={Financial} alt="" />
+          <h5>Financial Freedom</h5>
+          <p>
+            Just like the internet no single entity controls the <br /> Crypto
+            network which provides user transparency and <br /> privacy, which
+            puts you in absolute control of your money.
+          </p>
         </div>
-        <div className="cypto-rate">
-          <h3>
-            ETN/NGN
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            -253% <span className="vl3"></span>
-            <br /> 818,490.32NGN
-          </h3>
-        </div>
-        <div className="cypto-rate">
-          <h3>
-            LTC/NGN
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;81,0002.32%{" "}
-            <span className="vl4"></span>
-            <br /> 818,490.32 NGN
-          </h3>
-        </div>
-        <div className="cypto-rate">
-          <h3>
-            XRP/N <span className="vl5"></span>
-            <br /> 226.56
-          </h3>
+        <div className="sec-box border">
+          <img src={Investment} alt="" />
+          <h5>Investment</h5>
+          <p>
+            The constant demand as made Cryptocurrencies a Digital <br /> Gold
+            used for alternative store of wealth on the long term <br />{" "}
+            investment.
+          </p>
         </div>
       </div>
-      <hr />
     </div>
   );
 };

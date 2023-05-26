@@ -7,56 +7,114 @@
   justify-content: space-between;
 }
 
-.cypto-rate h3{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 45px;
-    margin-bottom: -16px;
+.cypto-rate h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 45px;
+  margin-bottom: -16px;
+}
+hr {
+  border: 1px solid black;
+}
+.vl {
+  border-left: 1px solid black;
+  height: 70px;
+  position: absolute;
+  left: 25%;
+  margin-left: -10px;
+  top: 2;
+  bottom: 10;
+  margin-top: 10px;
+}
+.vl2 {
+  border-left: 1px solid black;
+  height: 70px;
+  position: absolute;
+  left: 25%;
+  margin-left: 250px;
+  top: 2;
+  bottom: 10;
+  margin-top: 10px;
+}
+.vl3 {
+  border-left: 1px solid black;
+  height: 70px;
+  position: absolute;
+  left: 25%;
+  margin-left: 510px;
+  top: 2;
+  bottom: 10;
+  margin-top: 10px;
+}
+.vl4 {
+  border-left: 1px solid black;
+  height: 70px;
+  position: absolute;
+  left: 25%;
+  margin-left: 800px;
+  top: 2;
+  bottom: 10;
+  margin-top: 10px;
+}
 
-    
+.crypto-content h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
 }
-hr{
-    border: 1px solid black;
+.btn5 {
+  text-align: center;
 }
-.vl{
-    border-left: 1px solid black;
-    height: 70px;
-    position: absolute;
-    left: 25%;
-    margin-left: -10px;
-    top: 2;
-    bottom: 10;
-    margin-top: 10px;
+.shoe {
+  background-color: #e5e5e5;
+  color: #7c20be;
+  border: 1.5px solid #7c20be;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 17x;
+  line-height: 30px;
+  width: 10%;
 }
-.vl2{
-    border-left: 1px solid black;
-    height: 70px;
-    position: absolute;
-    left: 25%;
-    margin-left: 250px;
-    top: 2;
-    bottom: 10;
-    margin-top: 10px;
+
+.crypto-section {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
 }
-.vl3{
-    border-left: 1px solid black;
-    height: 70px;
-    position: absolute;
-    left: 25%;
-    margin-left: 510px;
-    top: 2;
-    bottom: 10;
-    margin-top: 10px;
+
+.crypto-section img {
+  width: 100px;
+  height: 70px;
+  margin-bottom: 20px;
 }
-.vl4{
-    border-left: 1px solid black;
-    height: 70px;
-    position: absolute;
-    left: 25%;
-    margin-left: 800px;
-    top: 2;
-    bottom: 10;
-    margin-top: 10px;
+.crypto-section p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 17px;
+}
+.crypto-section h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 10px;
+}
+.sec-box {
+  border: 2px solid;
+  background-color: #ffffff;
+  width: 319px;
+  height: 280px;
+  padding: 30px;
+  padding-top: 50px;
+  border-radius: 8px;
+
 }

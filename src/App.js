@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './pages/Home';
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div>
-         <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
         </Routes>

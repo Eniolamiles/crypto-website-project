@@ -1,0 +1,72 @@
+.review {
+  background-color: #ffffff;
+  height: 33rem;
+}
+.review-section h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.review-content .quote {
+  position: absolute;
+  left: 90px;
+  margin-top: 40px;
+  z-index: 2;
+}
+.review-content .quote2 {
+  position: absolute;
+  left: 520px;
+  margin-top: 40px;
+  z-index: 2;
+}
+.review-content .quote3 {
+  position: absolute;
+  left: 950px;
+  margin-top: 40px;
+  z-index: 2;
+}
+.review-content .pic {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 40px;
+}
+.rr {
+  position: relative;
+  width: 70%;
+  top: -180px;
+  left: 50px;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.ss {
+  position: relative;
+  width: 70%;
+  top: -180px;
+  left: 50px;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.yy {
+  position: relative;
+  width: 70%;
+  top: -180px;
+  left: 50px;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}

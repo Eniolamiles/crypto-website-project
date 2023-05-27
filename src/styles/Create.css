@@ -1,31 +1,44 @@
-/* .hero2 {
+.hero2 {
   background-color: #ede9ef;
-  height: 17rem;
+  height: 25rem;
+  margin-top: 200px;
 }
+
 .hero2-content p {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  margin-top: 10px;
+ 
 }
 .hero2-content h2 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 38px;
   text-align: center;
+  margin-top: 20px;
+  
+}
+.content-p{
+  margin-top: 50px;
 }
 
-
-.btn5 {
+.btn6 {
   background-color: #7c20bf;
   width: 307px;
   height: 47px;
+  border-radius: 5px;
+  border: none;
+  color: white;
 }
-.content-download img{
-  
 
-} */
+.con-img{
+display: flex;
+justify-content: center;
+gap: 9px;
+
+}

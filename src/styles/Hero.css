@@ -5,75 +5,93 @@
 .nav-content {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  height: 4rem;
+  align-items: center;
+}
+
+.nav-content img {
+  width: 152px;
+  height: 45.98px;
 }
 
 .nav-list {
   display: flex;
-  gap: 40px;
   align-items: center;
+  width: 50%;
+  justify-content: space-between;
+  margin-bottom: 0;
 }
+
+.nav-list li {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter",sans-serif;
+  font-style: normal;
+}
+
 .img2 {
   position: absolute;
-  width: 500px;
-  height: 520px;
-  left: 500px;
-  top: 81px;
+  width: 690.1px;
+  height: 600.1px;
+  left: 400px;
+  top: 75px;
 }
 
 .img3 {
   position: absolute;
-  width: 410px;
-  height: 431px;
+  width: 521px;
+  height: 500px;
   left: 770px;
   top: 137px;
 }
 .list1 {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
 }
 .list2 {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
 }
-.btn {
-  font-family: "Inter";
-  font-style: normal;
+
+.nav-list button {
+  font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 17px;
+  font-size: 14px;
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.btn {
   color: #ffffff;
+  border: 1px solid white;
+  background-color: #7c20be;
 }
 .btn2 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 27px;
   background: #ffffff;
-  border-radius: 5px;
   color: #7c20be;
 }
+
 .btn3 {
   border-radius: 5px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 30px;
   color: #7c1fbf;
   border: none;
-  width: 26%;
+  width: 24%;
 }
 
 .content-section {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -85,7 +103,7 @@
 }
 
 .content p {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -93,10 +111,12 @@
 }
 
 .content-download {
-    display: flex;
-    gap:15px ;
-    height: 44px;
-    
-    
-  
+  display: flex;
+  gap: 18px;
+  height: 44px;
+  width: 90%;
+}
+.content-download img {
+  display: flex;
+  width: 12.5%;
 }

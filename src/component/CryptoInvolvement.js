@@ -8,12 +8,12 @@ const CryptoInvolvement = () => {
   return (
     <div className="main">
       <div className="crypto-content ">
-        <h2 className="text-center mt-5">
-          why do people get involved in Cryptocurrencies?
+        <h2 className="text-center ">
+          Why do people get involved in Cryptocurrencies?
         </h2>
       </div>
       <div className="btn5 ">
-        <button className="mt-3  shoe ">See Less</button>
+        <button className="mt-5 shoe ">See Less</button>
       </div>
       <div className=" container crypto-section">
         <div className="sec-box border">

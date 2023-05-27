@@ -1,7 +1,59 @@
-.buy-section{
-    background-color: #ffffff;
-    height: 70rem;
+.buy-section {
+  background-color: #ffffff;
+  height: 70rem;
 }
-.img1{
-    width: 50px;
+.buy-section2 {
+  text-align: center;
+  margin-top: 30px;
 }
+.buy-section3 {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+.img1 {
+  width: 50px;
+}
+
+.buy-main {
+  display: flex;
+  gap: 70px;
+  width: 1250px;
+  height: 344.99px;
+  margin-top: 30px;
+}
+.buy-main2 {
+  display: flex;
+  gap: 70px;
+  flex-direction: row-reverse;
+  width: 1250px;
+  height: 344.99px;
+  margin-top: 30px;
+}
+
+.create-content{
+    width: 95%;
+}
+.create-content h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 15px;
+  width: 617px;
+  height: 48px;
+
+}
+.create-content p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.create-img {
+  width: 351.11px;
+  height: 350.47px;
+}
+
+

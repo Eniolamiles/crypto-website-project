@@ -21,7 +21,7 @@ const Crypto = () => {
     fetcher();
   }, []);
   return (
-    <div className="d-flex justify-content-between crypto-2 ">
+    <div className="d-flex crypto-2  ">
     
 
       {data.map((datum) => {
@@ -30,7 +30,7 @@ const Crypto = () => {
           <div key={id} className="d-flex gap-5 container crypto-content">
             <div>
                 <p>{symbol}/NGN</p>
-                <p>{price_usd} NGN</p>
+                <p>{price_usd}NGN</p>
 
             </div>
             <p>
@@ -43,7 +43,7 @@ const Crypto = () => {
                 )}
               </span>
             </p>
-            <p>{percent_change_24h}</p>
+            
             
           </div>
           

@@ -1,6 +1,6 @@
 .main {
   background-color: #e5e5e5;
-  height: 100vh;
+  height: 35rem;
 }
 .rate {
   display: flex;
@@ -15,51 +15,6 @@
   line-height: 45px;
   margin-bottom: -16px;
 }
-.horizontal {
-  border: 1px solid black;
-  /* position: absolute;
-  bottom: 60px; */
-}
-/* .vl {
-  border-left: 1px solid black;
-  height: 70px;
-  position: absolute;
-  left: 75%;
-  margin-left: -10px;
-  top: 2;
-  bottom: 10;
-  margin-bottom: 100px;
-} */
-/* .vl2 {
-  border-left: 1px solid black;
-  height: 70px;
-  position: absolute;
-  left: 25%;
-  margin-left: 250px;
-  top: 2;
-  bottom: 10;
-  margin-top: 10px;
-} */
-/* .vl3 {
-  border-left: 1px solid black;
-  height: 70px;
-  position: absolute;
-  left: 25%;
-  margin-left: 510px;
-  top: 2;
-  bottom: 10;
-  margin-top: 10px;
-} */
-/* .vl4 {
-  border-left: 1px solid black;
-  height: 70px;
-  position: absolute;
-  left: 25%;
-  margin-left: 800px;
-  top: 2;
-  bottom: 10;
-  margin-top: 10px;
-} */
 
 .crypto-content h2 {
   font-family: "Roboto", sans-serif;

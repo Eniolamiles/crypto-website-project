@@ -15,13 +15,13 @@ function Navbarsec() {
             <img src={logo2} alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
+          <Navbar.Collapse id="navbarScroll" className="justify-content-end">
             <Nav
               className="gap-4"
             
             >
-              <Nav className="instant" href="#action1">Instant Buy/Sell</Nav>
-              <Nav className="instant2" href="#action2">Learn</Nav>
+              <Nav className="instant text-white" href="#action1">Instant Buy/Sell</Nav>
+              <Nav className="instant2 text-white" href="#action2">Learn</Nav>
             </Nav>
             <div className="btn-section">
             <Button className="btn-nav2" variant="outline-success">Search</Button>

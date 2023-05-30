@@ -24,6 +24,7 @@ width: 630.1px;
 height: 584px;
 left: 460px;
 top: 88px;
+box-shadow: none;
 }
 
 .img3 {
@@ -33,6 +34,7 @@ width: 561px;
 height: 510px;
 left: 712px;
 top: 133px;
+box-shadow: none;
 }
 .list1 {
   font-family: "Inter", sans-serif;

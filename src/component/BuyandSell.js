@@ -7,6 +7,7 @@ import profilepics from "../assets/profilepics.png";
 import piggyimage from "../assets/piggyimage.svg";
 import newbitcoin from "../assets/newbitcoin.svg";
 const BuyandSell = () => {
+
   return (
     <div className="buy-section">
       <div className=" container buy-content">
@@ -21,8 +22,8 @@ const BuyandSell = () => {
         </p>
       </div>
       <div className="container">
-        <div className="buy-main d-flex align-items-center  mt-5">
-          <div className="d-flex gap-4 create">
+        <div className="buy-main d-flex  align-items-center  mt-5">
+          <div className="d-flex  gap-4 create">
             <img className="img1 mb-5" src={number1} alt="" />
             <div className="create-content">
               <h2>Create a free Account</h2>

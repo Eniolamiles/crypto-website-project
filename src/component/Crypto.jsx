@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import '../styles/Crypto.css'
+import green from '../assets/up.png'
+import red from '../assets/down.png'
 
 const Crypto = () => {
   const [data, setData] = useState([]);
@@ -19,17 +21,32 @@ const Crypto = () => {
     fetcher();
   }, []);
   return (
-    <div className="d-flex justify-content-between mt-3 container crypto-2 ">
+    <div className="d-flex justify-content-between crypto-2 ">
+    
+
       {data.map((datum) => {
         const {id, symbol, price_usd, percent_change_24h } = datum;
         return (
-          <div key={id} className="d-flex gap-5 crypto-2">
+          <div key={id} className="d-flex gap-5 container crypto-content">
             <div>
                 <p>{symbol}/NGN</p>
                 <p>{price_usd} NGN</p>
+
             </div>
+            <p>
+              {percent_change_24h}%
+              <span className="arrows">
+                {percent_change_24h <=0 ? (
+                  <img src={red} alt="" />
+                ) : (
+                  <img src={green} alt="" />
+                )}
+              </span>
+            </p>
             <p>{percent_change_24h}</p>
+            
           </div>
+          
         );
       })}
     </div>

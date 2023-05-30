@@ -2,6 +2,12 @@
   background-color: #ffffff;
   height: 33rem;
 }
+.review-content{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+}
 .review-section h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 600;

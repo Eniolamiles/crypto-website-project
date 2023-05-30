@@ -11,7 +11,7 @@ const Review = () => {
     <div className="review">
       <div className="container review-section">
         <h3>Customer's Review</h3>
-        <div className="review-content d-flex container">
+        <div className="review-content container">
           <div className="qq">
             <img src={rev} alt="" />
             <img className="quote" src={quote} alt="" />

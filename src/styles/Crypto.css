@@ -1,10 +1,16 @@
 
 .crypto-2{
- 
-}
-.crypto-2{
-    /* margin-top:20px ;
-    
-    line-height: 30px; */
+  
     line-height: 50px;
+    background-color: #E5E5E5;
+}
+hr{
+    border: 1px solid black;
+    margin-left: -1000px;
+    margin-right: -166px;
+}
+@media screen and(min-width:375px) {
+    .crypto-content{
+        display: block;
+    }
 }

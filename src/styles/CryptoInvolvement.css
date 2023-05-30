@@ -15,20 +15,22 @@
   line-height: 45px;
   margin-bottom: -16px;
 }
-hr {
+.horizontal {
   border: 1px solid black;
+  /* position: absolute;
+  bottom: 60px; */
 }
-.vl {
+/* .vl {
   border-left: 1px solid black;
   height: 70px;
   position: absolute;
-  left: 25%;
+  left: 75%;
   margin-left: -10px;
   top: 2;
   bottom: 10;
-  margin-top: 10px;
-}
-.vl2 {
+  margin-bottom: 100px;
+} */
+/* .vl2 {
   border-left: 1px solid black;
   height: 70px;
   position: absolute;
@@ -37,8 +39,8 @@ hr {
   top: 2;
   bottom: 10;
   margin-top: 10px;
-}
-.vl3 {
+} */
+/* .vl3 {
   border-left: 1px solid black;
   height: 70px;
   position: absolute;
@@ -47,8 +49,8 @@ hr {
   top: 2;
   bottom: 10;
   margin-top: 10px;
-}
-.vl4 {
+} */
+/* .vl4 {
   border-left: 1px solid black;
   height: 70px;
   position: absolute;
@@ -57,17 +59,18 @@ hr {
   top: 2;
   bottom: 10;
   margin-top: 10px;
-}
+} */
 
 .crypto-content h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 32px;
+  padding-top: 50px;
 }
 .btn5 {
   text-align: center;
 }
-.shoe {
+.less {
   background-color: #e5e5e5;
   color: #7c20be;
   border: 1.5px solid #7c20be;
@@ -83,7 +86,7 @@ hr {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 25px;
 }
 
 .crypto-section img {

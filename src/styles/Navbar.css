@@ -1,0 +1,35 @@
+.nav-bar{
+    background-color: #7C20BF;
+    height: 8rem;
+}
+
+.nav-hero{
+    background-color: #7C20BF;
+    height: 5rem;
+
+}
+
+.btn-nav{
+    color: #7C20BF;
+    width: 75%;
+
+}
+.btn-nav2{
+    gap: 10px;
+    width: 75%;
+}
+.btn-section{
+    display: flex;
+    gap: 10px;
+    width: 20%;
+}
+.instant{
+    display: flex;
+    /* margin-left: 300px; */
+
+}
+.instant2{
+    display: flex;
+    /* margin-left: 500px; */
+
+}

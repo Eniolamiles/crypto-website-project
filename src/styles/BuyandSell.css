@@ -1,6 +1,7 @@
 .buy-section {
   background-color: #ffffff;
   height: 70rem;
+  margin-top: 0px;
 }
 .buy-section2 {
   text-align: center;
@@ -18,7 +19,8 @@
 
 .buy-main {
   display: flex;
-  gap: 70px;
+  justify-content: space-between;
+  gap: 200px;
   width: 1250px;
   height: 344.99px;
   margin-top: 30px;

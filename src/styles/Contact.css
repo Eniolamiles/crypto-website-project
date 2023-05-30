@@ -1,0 +1,21 @@
+.contact-section {
+  background-color: #ede9ef;
+  height: 20rem;
+}
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.contact-img {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-content p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
